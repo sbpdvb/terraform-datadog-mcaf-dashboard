@@ -25,6 +25,7 @@ resource "datadog_dashboard" "default" {
     ignore_changes = [
       template_variable,
       template_variable_preset,
+      dash_item,
       widget,
     ]
   }
